@@ -17,3 +17,26 @@ source venv/bin/activate
 ```bash
 pip install sphinx
 ```
+
+## Create the first Sphinx document
+```bash
+sphinx-quickstart
+```
+Welcome to the Sphinx 8.2.3 quickstart utility.
+
+Please enter values for the following settings (just press Enter to
+accept a default value, if one is given in brackets).
+
+Selected root path: .
+
+You have two options for placing the build directory for Sphinx output.
+Either, you use a directory "_build" within the root path, or you separate
+"source" and "build" directories within the root path.
+> Separate source and build directories (y/n) [n]: y  
+> > The project name will occur in several places in the
+> > built documentation.
+>   
+> Project name: kfh_sphinx  
+> Author name(s): KFH Inc.  
+> Project release []: 0.1  
+> Project language [en]:  
